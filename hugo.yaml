@@ -17,6 +17,7 @@ languages:
         Title: articles
         Content: Postings related with software engineering. Feel free to contact via [mail](pravda.kracota@gmail.com).
 
+title: pravda spaset mir
 pagination:
   pageSize: 10
 theme: ["PaperMod"]
