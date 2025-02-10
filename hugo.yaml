@@ -26,6 +26,10 @@ showToc: true
 # SEO-realted configurations
 enableRobotsTXT: true
 
+services:
+  # google analytics
+  googleAnalytics: "G-QX3JH189SE"
+
 params:
   env: production
   defaultTheme: auto
