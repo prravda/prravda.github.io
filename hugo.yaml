@@ -28,7 +28,8 @@ enableRobotsTXT: true
 
 services:
   # google analytics
-  googleAnalytics: "G-QX3JH189SE"
+  googleAnalytics:
+    id: "G-QX3JH189SE"
 
 params:
   env: production
