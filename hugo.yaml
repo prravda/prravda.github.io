@@ -1,0 +1,64 @@
+baseURL: https://prravda.github.io
+languages:
+  kr:
+    languageCode: kr
+    contentDir: content/kr
+    params:
+      # home info
+      homeInfoParams:
+        Title: 게시글
+        Content: 소프트웨어 엔지니어링과 관련된 글을 주로 게시합니다. 연락은 언제든 편하게 [메일](pravda.kracota@gmail.com)로 주세요.
+  en:
+    languageCode: en
+    contentDir: content/en
+    params:
+      # home info
+      homeInfoParams:
+        Title: articles
+        Content: Postings related with software engineering. Feel free to contact via [mail](pravda.kracota@gmail.com).
+
+pagination:
+  pageSize: 10
+theme: ["PaperMod"]
+showToc: true
+
+# SEO-realted configurations
+enableRobotsTXT: true
+
+params:
+  env: production
+  defaultTheme: auto
+
+  # contents realted
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/prravda"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/pravdakracota/"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: "/"
+      weight: 1
+    # - identifier: about
+    #   name: About
+    #   url: "/about/"
+    #   weight: 2
+    - identifier: tags
+      name: Tags
+      url: "/tags/"
+      weight: 3
+    - identifier: archives
+      name: Archives
+      url: "/archives/"
+      weight: 4
+    - identifier: contact
+      name: Contact
+      url: "/contact/"
+      weight: 5
